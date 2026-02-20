@@ -95,8 +95,23 @@ This ensures a predictable, scalable, and maintainable architecture.
 
 ## Project folder structure
 
-<pre> ```bash football-league-app/ │ ├── backend/ │ ├── modules/ │ ├── controllers/ │ ├── services/ │ └── main.ts │ ├── frontend/ │ ├── pages/ │ ├── components/ │ ├── stores/ │ └── app.vue │ └── README.md ``` </pre>
-
+```plaintext
+football-league-app/
+│
+├── api/
+│   ├── modules/
+│   ├── controllers/
+│   ├── services/
+│   └── main.ts
+│
+├── ui
+│   ├── pages/
+│   ├── components/
+│   ├── stores/
+│   └── app.vue
+│
+└── README.md
+```
 ---
 
 ## 🚀 Installation
@@ -119,7 +134,7 @@ npm run start:dev
 
 ## Screenshots
 
-- ![Dashboard image]('screenshots/1.png')
-- ![Team profile image]('screenshots/2.png')
-- ![Team profile image]('screenshots/3.png')
-- ![Team profile image]('screenshots/4.png')
+- ![Dashboard image](screenshots/1.png)
+- ![Team profile image](screenshots/2.png)
+- ![Team profile image](screenshots/3.png)
+- ![Team profile image](screenshots/4.png)
