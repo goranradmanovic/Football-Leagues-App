@@ -1,0 +1,78 @@
+@import "primeflex/primeflex.css";
+@import 'primeicons/primeicons.css';
+@import "@fontsource/inter/400.css";
+@import "@fontsource/inter/500.css";
+@import "@fontsource/inter/600.css";
+@import "@fontsource/inter/700.css";
+
+/* Apply to all Listboxes in your app */
+:root {
+  --p-listbox-list-gap: .5rem;
+  --p-listbox-option-focus-background: #096fe3; /* hover */
+  --p-listbox-option-focus-color: #ffffff;
+  
+  --p-listbox-option-selected-background: #096fe3; /* selected */
+  --p-listbox-option-selected-focus-background: #096fe3; /* selected */
+  --p-listbox-option-selected-color: #ffffff;
+}
+
+/* CSS Reset */
+/* 1. Use a more intuitive box-sizing model */
+*, *::before, *::after {
+  box-sizing: border-box;
+}
+
+/* 2. Remove default margin */
+* {
+  margin: 0;
+}
+
+/* 3. Allow percentage-based heights in the application */
+html, body {
+  height: 100%;
+}
+
+/* 4. Add accessible line height and improve text rendering */
+body {
+  font-family: 'Inter', sans-serif;
+  line-height: 1.5;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* 5. Improve media defaults */
+img, picture, video, canvas, svg {
+  display: block;
+  max-width: 100%;
+}
+
+/* 6. Ensure form elements inherit font properties */
+input, button, textarea, select {
+  font: inherit;
+}
+
+/* 7. Avoid text overflows */
+p, h1, h2, h3, h4, h5, h6 {
+  overflow-wrap: break-word;
+}
+
+/* 8. Create a root stacking context */
+#root, #__next, #__nuxt {
+  isolation: isolate;
+}
+
+/* Page CSS */
+.profile__cards {
+  position: relative;
+}
+
+.profile__cards--img {
+  position: absolute;
+  width: 265px;
+  aspect-ratio: 1;
+  top: -90px;
+}
+
+.back__btn {
+  top: .5rem;
+  left: .5rem;
+}

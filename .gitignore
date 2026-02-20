@@ -1,0 +1,29 @@
+# Nuxt dev/build outputs
+./ui/output
+./ui/data
+./ui/nuxt
+./ui/nitro
+./ui/cache
+./ui/dist
+
+# Node dependencies
+./ui/node_modules
+
+# Logs
+./ui/logs
+./ui/*.log
+
+# Misc
+./ui/DS_Store
+./ui/fleet
+./ui/idea
+
+# Local env files
+./ui/.env
+./ui/.env.*
+./ui/!.env.example
+
+# Nest API
+./api/dist
+./api/node_modules
+./api/.env
