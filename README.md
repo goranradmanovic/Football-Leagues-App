@@ -95,21 +95,7 @@ This ensures a predictable, scalable, and maintainable architecture.
 
 ## Project folder structure
 
-football-league-app/
-│
-├── api/        # NestJS API layer
-│   ├── modules/
-│   ├── controllers/
-│   ├── services/
-│   └── main.ts
-│
-├── ui/       # Nuxt 3 application
-│   ├── pages/
-│   ├── components/
-│   ├── stores/
-│   └── app.vue
-│
-└── README.md
+<pre> ```bash football-league-app/ │ ├── backend/ │ ├── modules/ │ ├── controllers/ │ ├── services/ │ └── main.ts │ ├── frontend/ │ ├── pages/ │ ├── components/ │ ├── stores/ │ └── app.vue │ └── README.md ``` </pre>
 
 ---
 
@@ -133,7 +119,7 @@ npm run start:dev
 
 ## Screenshots
 
-- ![Dashboard image]('./screenshots/1.png')
-- ![Team profile image]('./screenshots/2.png')
-- ![Team profile image]('./screenshots/3.png')
-- ![Team profile image]('./screenshots/4.png')
+- ![Dashboard image]('screenshots/1.png')
+- ![Team profile image]('screenshots/2.png')
+- ![Team profile image]('screenshots/3.png')
+- ![Team profile image]('screenshots/4.png')
